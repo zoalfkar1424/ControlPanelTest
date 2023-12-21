@@ -1,7 +1,6 @@
 
 
 ## About Environment
-- Environment ......................................................................................................................................  
 - Application Name ......................................................................................................................... Laravel
 - Laravel Version .......................................................................................................................... 10.37.3
 - PHP Version ............................................................................................................................... 8.1.10
@@ -13,13 +12,13 @@
 - Session ..................................................................................................................................... file
 
 ## Database server
-Server: 127.0.0.1 via TCP/IP
-Server type: MariaDB
-Server connection: SSL is not being used Documentation
-Server version: 10.4.25-MariaDB - mariadb.org binary distribution
-Protocol version: 10
-User: root@localhost
-Server charset: UTF-8 Unicode (utf8mb4)
+- Server: 127.0.0.1 via TCP/IP
+- Server type: MariaDB
+- Server connection: SSL is not being used Documentation
+- Server version: 10.4.25-MariaDB - mariadb.org binary distribution
+- Protocol version: 10
+- User: root@localhost
+- Server charset: UTF-8 Unicode (utf8mb4)
 
 ## Run the Project
 1- Clone the project from GitHub.
