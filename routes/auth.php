@@ -20,9 +20,8 @@ use \Carbon\Carbon;
 Route::post('user/login', function (Request $request) {
     $user = User::Where('email', $request->email)->first();
     if ($user && Hash::check($request->password, $user->password)) {
-        $objToken = $user->createToken('User', ['user']);
-        $strToken = $objToken->accessToken;
-        $user->update();
+        $objToken = $user->createToken('User');
+        $strToken = $objToken->plainTextToken;
         $response = \App\Helpers\Helper::createSuccessResponse([
             "exist" => $user->email ? true : false,
             "token_type" => "Bearer",
